@@ -1,1 +1,4 @@
 Home page
+<ng-container *ngFor="let league of leagues$ | async;">
+    <div>{{league.league.name}}</div>
+</ng-container>
