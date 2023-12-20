@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { MatFormFieldModule, } from '@angular/material/form-field';
-import { MatSelectModule } from '@angular/material/select';
-import { MatInputModule } from '@angular/material/input';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @Component({
   selector: 'ff-navigation',
   standalone: true,
-  imports: [MatFormFieldModule, MatInputModule, MatSelectModule],
+  imports: [MatSidenavModule],
   templateUrl: './navigation.component.html',
   styleUrl: './navigation.component.scss'
 })

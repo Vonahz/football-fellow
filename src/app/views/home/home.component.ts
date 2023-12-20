@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { NavigationComponent } from '../../components/navigation/navigation.component';
+import { MainLayout } from '../../layouts/main/main.layout';
 
 @Component({
   selector: 'ff-home',
   standalone: true,
-  imports: [NavigationComponent],
+  imports: [MainLayout],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
